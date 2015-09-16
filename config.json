@@ -1,0 +1,24 @@
+{
+  "frontends": [
+    {
+      "type": "telnet",
+      "port": 2222
+    },
+    {
+      "type": "dialin",
+      "dev": "/usb/ttyUSB0"
+    }
+  ],
+  "backends": [
+    {
+      "type": "telnet",
+      "address": "127.0.0.1",
+      "port": 54321
+    },
+    {
+      "type": "dialout",
+      "dev": "/usb/ttyUSB1",
+      "number": "0355501234"
+    }
+  ]
+}
