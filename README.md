@@ -16,3 +16,7 @@ However, as you may notice, it is not built yet. This is a work in progress and 
 - [ ] Telnet back-end (users will be able to be directed to telnet servers running behind the proxy)
 - [ ] Simple menuing
 - [ ] Dial-in front-end (users will be able to connect via dial-in modem)
+
+## Glossary
+
+- *\*end driver*: A library which allows tgateway to connect to an endpoint (backend) or receive connections from clients (frontend). Drivers can be initialized as many times as necessary (eg. multiple modems/telelphone lines)
