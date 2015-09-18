@@ -19,4 +19,4 @@ However, as you may notice, it is not built yet. This is a work in progress and 
 
 ## Glossary
 
-- *\*end driver*: A library which allows tgateway to connect to an endpoint (backend) or receive connections from clients (frontend). Drivers can be initialized as many times as necessary (eg. multiple modems/telelphone lines)
+- **end driver*: A library which allows tgateway to connect to an endpoint (backend) or receive connections from clients (frontend). Drivers can be initialized as many times as necessary (eg. multiple modems/telelphone lines)
