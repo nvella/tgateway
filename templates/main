@@ -1,0 +1,7 @@
+
+  Welcome to the tgateway sample menu. Please choose an option
+  = name = | = description ====================================================
+       bbs | Bulletin board
+      quit | Disconnect from the system
+
+ option>
