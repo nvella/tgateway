@@ -9,16 +9,21 @@
       "dev": "/usb/ttyUSB0"
     }
   ],
-  "backends": [
-    {
+  "backends": {
+    "bbs": {
       "type": "telnet",
       "address": "127.0.0.1",
       "port": 54321
-    },
-    {
-      "type": "dialout",
-      "dev": "/usb/ttyUSB1",
-      "number": "0355501234"
     }
-  ]
+  },
+  "menus": {
+    "main": {
+      "template": "main",
+      "on": {
+        "quit": {"disconnect": null},
+        "bbs":  {"backend": "bbs"}
+      }
+    }
+  },
+  "start": {"menu": "main"}
 }
