@@ -11,10 +11,10 @@ However, as you may notice, it is not built yet. This is a work in progress and 
 
 ## To-do
 
-- [ ] Basic framework
-- [ ] Telnet front-end (users will be able to connect via telnet)
-- [ ] Telnet back-end (users will be able to be directed to telnet servers running behind the proxy)
-- [ ] Simple menuing
+- [x] Basic framework
+- [x] Telnet front-end (users will be able to connect via telnet)
+- [x] Telnet back-end (users will be able to be directed to telnet servers running behind the proxy)
+- [x] Simple menuing
 - [ ] Dial-in front-end (users will be able to connect via dial-in modem)
 
 ## Glossary
