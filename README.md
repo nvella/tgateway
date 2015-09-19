@@ -1,7 +1,7 @@
 # tgateway
 tgateway is a reverse proxy for telnet servers, connecting a user from a 'front-end' (telnet server, dial-in modem, possibly SSH) to a back-end (telnet server, possibly SSH). In between all of this, tgateway will be able to provide menu systems, authentication, load balancing and more.
 
-However, as you may notice, it is not built yet. This is a work in progress and in fact, it may never be finished.
+It is currently able to accept connections from telnet clients, display menus, and direct them to telnet servers. Dial-in clients and authentication are planned for the future.
 
 ## Possible uses
 
